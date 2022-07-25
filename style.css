@@ -1,4 +1,18 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 html, body {
   height: 100%;
   width: 100%;
+}
+
+body {
+  background-color:#ffccbc ;
+}
+
+header {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px;
+  color:#039be5;
 }
