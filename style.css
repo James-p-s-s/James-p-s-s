@@ -25,6 +25,12 @@ header {
   color: #dbdbdb;
 }
 
+.Text {
+   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 10px;
+  color:#000000;
+}
+
 . {
   font-size: 30px;
   color: #dbdbdb;
@@ -35,3 +41,10 @@ header {
   height: 50px ;
   background: #231f1f;
 }
+
+.ImagesStore {
+   display: grid;
+   grid-template-areas:
+   "m9 m1 m10 m4"
+   "m2 m6 m7 m8"
+   "m5 m5 m3 m3";
