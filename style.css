@@ -13,6 +13,8 @@ header {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 50px;
   color:#039be5;
+  text-align: center;
+  margin: 55px;
 }
 
 .Store {
@@ -20,6 +22,18 @@ header {
   color: #dbdbdb;
 }
 
+.img {
+   width: 200px;
+    height: 150px;
+}
+
+.Image1 {
+height: 450px;
+  width:700px;
+  text-align: center;
+  margin: 30px;
+  border-radius: 50px;
+}
 .Home {
   font-size: 30px;
   color: #dbdbdb;
@@ -28,12 +42,15 @@ header {
 .Text {
    font-family: 'Source Sans Pro', sans-serif;
   font-size: 10px;
+  text-align: center;
   color:#000000;
 }
 
 . {
   font-size: 30px;
   color: #dbdbdb;
+   position: relative;
+  text-align: center;
 }
 
 
@@ -41,10 +58,74 @@ header {
   height: 50px ;
   background: #231f1f;
 }
+.main{
+  text-align: center;
+}
 
 .ImagesStore {
-   display: grid;
+   display: grid ;
+ grid-template-columns: 230px 230px 230px 230px ;
+  grid-template-rows: 200px 200px 200px ;
+  align-self: center;
    grid-template-areas:
-   "m9 m1 m10 m4"
-   "m2 m6 m7 m8"
-   "m5 m5 m3 m3";
+   "M9 M5 M10 M4"
+   "M3 M6 M7 M8"
+   "M1 M1 M2 M2" ;
+}
+ .M1 {
+  grid-area: M1;
+    width: 350px;
+    height: 200px;
+}
+
+.M2 {
+  grid-area: M2;
+   width: 350px;
+    height: 200px;
+}
+
+.M3 {
+  grid-area: M3;
+}
+
+.M4 {
+  grid-area: M4;
+}
+
+ .M5 {
+  grid-area: M5;
+}
+  .M6 {
+  grid-area: M6;
+}
+  .M7 {
+  grid-area: M7;
+     width: 250px;
+    height: 200px;
+}
+  .M8 {
+  grid-area: M8;
+    height: 180px;
+}
+  .M9 {
+  grid-area: M9;
+}
+  .M10 {
+  grid-area: M10;
+}
+
+.centered {
+  position: absolute;
+  top: -20%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+.Pad {
+  padding: 25px;
+}
